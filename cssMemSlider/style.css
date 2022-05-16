@@ -67,3 +67,18 @@ img {
 a:hover > .item {
     background-color: aliceblue;
 }
+
+@media (min-width: 320px) and (max-width: 568px) {
+    .description {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img {
+        margin: auto auto;
+        max-width: 100%;
+        max-height: 60%;
+    }
+}
